@@ -113,7 +113,7 @@ header h1 {
 }
 .submit-btn {
     background-color: #000;
-    color: rgba(185, 95, 95, 70%);
+    color: #fff;
 }
 .submit-btn:hover{
     background-color: rgba(185, 95, 95, 70%);
