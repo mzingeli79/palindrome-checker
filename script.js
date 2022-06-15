@@ -22,11 +22,11 @@ document.querySelector('.submit-btn').addEventListener('click', (e) =>{
         if(textCheck.split(/[_\W+]/g).join('').toLowerCase() === finalString){
             userText.innerHTML = `Your Text: <span class="answer">'${textCheck}'</span>`;
             reverseText.innerHTML = `Your string reversed: <span class="answer">${finalString}</span>`;
-            results.innerHTML =   `This returns <span class="answer">${true}</span>.  it is the same as this: <span class="answer">${textCheck.split(/[_\W+]/).join('').toLowerCase()}</span>`
+            results.innerHTML =   `This returns <span class="answer">${true}</span>. Your text is a Palindrome, it is the same as this: <span class="answer">${textCheck.split(/[_\W+]/).join('').toLowerCase()}</span>`
         }else{
             userText.innerHTML = `Your Text: <span class="answer">'${textCheck}'</span>`;
             reverseText.innerHTML = `Your string reversed: <span class="answer">${finalString}</span>`;
-            results.innerHTML =  `This returns <span class="answer">${false}</span>. It is not the same as this: <span class="answer">${textCheck.split(/[_\W+]/).join('').toLowerCase()}</span>`;
+            results.innerHTML =  `This returns <span class="answer">${false}</span>. Your text is not a Palindrome, it is not the same as this: <span class="answer">${textCheck.split(/[_\W+]/).join('').toLowerCase()}</span>`;
         } 
     }
     }
