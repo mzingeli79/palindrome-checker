@@ -155,11 +155,12 @@ header h1 {
     font-size: small;
 }
 .reset {
-    padding: 5px;
+    padding: 10px;
     background-color: rgb(201, 46, 46);
     border: none;
     color: #000;
     cursor: pointer;
+    width:100%
 }
 .reset:hover {
     background-color: rgba(139, 67, 67, 0.7);
